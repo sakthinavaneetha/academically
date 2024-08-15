@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#cgpaResult {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#honorsOptions {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #28a745;
+    background-color: #d4edda;
+}
+
+#honorsOptions h2 {
+    color: #155724;
+}
+
+#honorsOptions ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#honorsOptions ul li {
+    margin-bottom: 10px;
+    color: #155724;
+}

@@ -1,0 +1,32 @@
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #023e98;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.box p {
+    margin: 10px 0 0;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
